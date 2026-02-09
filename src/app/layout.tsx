@@ -1,0 +1,33 @@
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import Navbar from '@/components/navbar/Navbar';
+import ClientOnly from "@/components/ClientOnly";
+import Footer from "@/components/Footer";
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = {
+  title: 'Airbnb Clone',
+  description: 'Airbnb clone built with Next.js',
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <ClientOnly>
+          <Navbar />
+        </ClientOnly>
+        <div className="pb-20 pt-48">
+          {children}
+        </div>
+        <Footer />
+      </body>
+    </html>
+  );
+}
