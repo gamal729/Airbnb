@@ -1,8 +1,7 @@
 export const services = [
     {
         title: "الشيف الخاص",
-        aspectRatio: "square", // Although chef images look somewhat square/landscape, I'll use square based on the first row likeness or adjust.
-        // Actually looking at screenshot 1, they are square-ish with rounded corners.
+        aspectRatio: "square",
         items: [
             {
                 id: "chef-1",
@@ -10,7 +9,7 @@ export const services = [
                 location: null,
                 price: 99,
                 rating: null,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-4933967-poster/original/8e5b530c-2550-4840-a193-4554f67c4ec2.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -19,7 +18,7 @@ export const services = [
                 location: null,
                 price: 90,
                 rating: null,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-4998064-poster/original/405904d0-6e3e-436f-b25c-902047644265.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1542718610-a1d656d1884c?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -28,7 +27,7 @@ export const services = [
                 location: null,
                 price: 48,
                 rating: null,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5002476-poster/original/0b691515-3221-4d37-9759-994191d4047a.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -37,7 +36,7 @@ export const services = [
                 location: null,
                 price: 170,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5002479-poster/original/a08c02a7-681b-4191-88fc-840d58546b7a.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1505881402582-c5bc11054f91?q=80&w=720&auto=format&fit=crop",
                 minBooking: 800,
             },
             {
@@ -46,7 +45,7 @@ export const services = [
                 location: null,
                 price: 70,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5002484-poster/original/55940409-51a8-4444-a02e-6007353f478a.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=720&auto=format&fit=crop",
                 minBooking: 1220,
             },
             {
@@ -55,7 +54,7 @@ export const services = [
                 location: null,
                 price: 49,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5002494-poster/original/94270d13-6401-443b-8566-9b578c772dc8.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=720&auto=format&fit=crop",
                 minBooking: 499,
             },
             {
@@ -64,8 +63,75 @@ export const services = [
                 location: null,
                 price: 83,
                 rating: 4.97,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-5002496-poster/original/fefb876a-360e-436f-b25c-902047644265.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1512918760513-0fedc4bda131?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
+                // Specific detailed data for Carlo
+                subtitle: "أقدم المأكولات الرومانية الأصيلة والتقليدية بمكونات ونكهات طازجة.",
+                hostName: "Carlo",
+                hostImage: "https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=200&auto=format&fit=crop",
+                packages: [
+                    {
+                        title: "تجربة الأطباق الرومانية",
+                        price: 42,
+                        description: "هل ترغب في الاستمتاع بتجربة شيف خاص في البيت دون إنفاق الكثير؟ مع هذا الخيار، يمكنك اختيار طبق واحد من الكلاسيكيات الرومانية، مثل السباغيتي كاربونارا أو التيراميسو محلي الصنع. نجلب المكونات الطازجة والوصفات التقليدية المأكولات...",
+                        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=200&auto=format&fit=crop"
+                    },
+                    {
+                        title: "قائمة الطعام الأساسي - نكهات روما",
+                        price: 83,
+                        description: "طاهٍ روماني خاص يجلب النكهات التقليدية إلى المنازل وأماكن الإقامة في روما. تتضمن قائمتي الأساسية أربعة أطباق مع بروشيتا الطماطم، وسباجيتي كاربونارا، وسالتيمبوكا ألا رومانا، والتيراميسو. إذا كان هناك شيء لا يناسب ذوقك، فسأقوم بكل سرور بتكييفه...",
+                        image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?q=80&w=200&auto=format&fit=crop"
+                    },
+                    {
+                        title: "المعكرونة والحلوى المعدة في البيت",
+                        price: 83,
+                        description: "تعلم فن المعكرونة الطازجة والحلوى التقليدية محلية الصنع، مباشرة في بيتك. بدلاً من الذهاب إلى الأماكن المزدحمة، واستخدام سيارات الأجرة وانتظار الآخرين، يمكنك الاستمتاع بهذه التجربة في منزلك المريح، مع تركيز الطاهي عليك فقط. معًا سنقوم...",
+                        image: "https://images.unsplash.com/photo-1542718610-a1d656d1884c?q=80&w=200&auto=format&fit=crop"
+                    },
+                    {
+                        title: "الهالوين في روما",
+                        price: 101,
+                        description: "اقضِ عيد هالوين رائعًا في روما مع عائلتك أو أصدقائك، واستمتع بالأطباق الرومانية أو الأطباق التي تختارها. أثناء وجودك في المنزل سآتي وأطهو لك غداءً أو عشاءً لذيذًا",
+                        image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=200&auto=format&fit=crop"
+                    },
+                    {
+                        title: "قائمة المأكولات البحرية الرومانية",
+                        price: 119,
+                        description: "رحلة من أربعة أطباق مخصصة للمأكولات البحرية لأولئك الذين يرغبون في تجربة كاملة وراقية. من البداية إلى الحلوى، يتم إعداد كل طبق بمكونات موسمية طازجة مستوحاة من التقاليد المتوسطية والرومانية. لشيء أكثر فخامة وممتازة واستثنائية ومثالية لتناو...",
+                        image: "https://images.unsplash.com/photo-1505881402582-c5bc11054f91?q=80&w=200&auto=format&fit=crop"
+                    }
+                ],
+                reviews: [
+                    {
+                        name: "Hannah",
+                        date: "منذ 1 أسبوع",
+                        location: "Rocky Face, جورجيا",
+                        countryCode: "US",
+                        comment: "كان كارلو رائعًا! سرعان ما بدأ العمل وقدم لنا وجبة رائعة من 4 أطباق في مطبخ صغير في شقتنا. لقد نظف الأطباق لنا وحتى أنه ساعدنا في العبارات الإيطالية والنطق. لقد صنع أفضل تيراميسو تناولناه على الإطلاق. استفسرت عن إضافة النبيذ إلى قائمتنا...",
+                        avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop"
+                    },
+                    {
+                        name: "Elina",
+                        date: "منذ 1 أسبوع",
+                        location: "الولايات المتحدة",
+                        comment: "حجزت هذا العشاء أثناء سفري بمفردي، وكان الأمر يستحق ذلك تمامًا. حتى مع وجود حاجز لغوي بسيط، كان كارلو لطيفًا للغاية وكان للأمسية بأكملها جو جيد. شعرت بالراحة والسهولة حقًا، وكان العشاء لذيذًا — كان التيراميسو مذهلاً للغاية. أود بالتأكيد أن أوصي...",
+                        avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=100&auto=format&fit=crop"
+                    },
+                    {
+                        name: "Angie",
+                        date: "ديسمبر 2025",
+                        location: "بوتا ليك، ميشيغان",
+                        comment: "كان كارلو رائعًا! لقد تواصل معنا مسبقًا لتنسيق القائمة وكان مرنًا للغاية. كان الطعام لذيذًا وكان شرحه للأطباق رائعًا.",
+                        avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=100&auto=format&fit=crop"
+                    },
+                    {
+                        name: "Patrick",
+                        date: "ديسمبر 2025",
+                        location: "سينت، سويسرا",
+                        comment: "تجربة طهي منزلية رائعة. كان كارلو محترفًا للغاية وودودًا. الطعام كان ممتازًا!",
+                        avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=100&auto=format&fit=crop"
+                    }
+                ]
             }
         ]
     },
@@ -79,7 +145,7 @@ export const services = [
                 location: "سان دييغو, الولايات المتحدة",
                 price: 100,
                 rating: null,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-247545-poster/original/5e347472-3511-487c-a454-08da62383c38.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -88,7 +154,7 @@ export const services = [
                 location: "زابوبان, المكسيك",
                 price: 24,
                 rating: null,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-256976-poster/original/a08c02a7-681b-4191-88fc-840d58546b7a.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=720&auto=format&fit=crop",
                 minBooking: 465,
             },
             {
@@ -97,7 +163,7 @@ export const services = [
                 location: "باسادينا, الولايات المتحدة",
                 price: 50,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-149816-poster/original/8e5b530c-2550-4840-a193-4554f67c4ec2.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1542718610-a1d656d1884c?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -106,7 +172,7 @@ export const services = [
                 location: "لوس أنجلوس, الولايات المتحدة",
                 price: 68,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-349888-poster/original/94270d13-6401-443b-8566-9b578c772dc8.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -115,7 +181,7 @@ export const services = [
                 location: "ريدوندو بيتش, الولايات المتحدة",
                 price: 160,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-296564-poster/original/fefb876a-360e-436f-b25c-902047644265.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1505881402582-c5bc11054f91?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -124,7 +190,7 @@ export const services = [
                 location: null,
                 price: 25,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-404369-poster/original/55940409-51a8-4444-a02e-6007353f478a.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=720&auto=format&fit=crop",
                 minBooking: 200,
             },
             {
@@ -133,15 +199,14 @@ export const services = [
                 location: "ميامي, الولايات المتحدة",
                 price: 10,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-246101-poster/original/1ad4045a-c51d-4879-a75d-3d4434254425.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             }
         ]
     },
     {
         title: "تدليك",
-        aspectRatio: "landscape", // Based on screenshot 3, widely mostly square but let's stick to square for consistency unless requested otherwise. Wait, looking at crop, they look square too.
-        // Actually, all images in the screenshots look roughly square with rounded corners. I will use 'square' for all.
+        aspectRatio: "landscape",
         items: [
             {
                 id: "massage-1",
@@ -149,7 +214,7 @@ export const services = [
                 location: "لوس أنجلوس, الولايات المتحدة",
                 price: 60,
                 rating: 4.75,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-252554-poster/original/321855a8-55a8-4444-a02e-6007353f478a.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1512918760513-0fedc4bda131?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -158,7 +223,7 @@ export const services = [
                 location: "مدريد, إسبانيا",
                 price: 76,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-63666-poster/original/55940409-51a8-4444-a02e-6007353f478a.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -167,7 +232,7 @@ export const services = [
                 location: "فالماوث, الولايات المتحدة",
                 price: 180,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-293693-poster/original/a08c02a7-681b-4191-88fc-840d58546b7a.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -176,7 +241,7 @@ export const services = [
                 location: null,
                 price: 80,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-149816-poster/original/8e5b530c-2550-4840-a193-4554f67c4ec2.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1542718610-a1d656d1884c?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -185,7 +250,7 @@ export const services = [
                 location: null,
                 price: 103,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-404369-poster/original/55940409-51a8-4444-a02e-6007353f478a.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -194,7 +259,7 @@ export const services = [
                 location: null,
                 price: 150,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-349888-poster/original/94270d13-6401-443b-8566-9b578c772dc8.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1505881402582-c5bc11054f91?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             },
             {
@@ -203,7 +268,7 @@ export const services = [
                 location: null,
                 price: 56,
                 rating: 5.0,
-                imageSrc: "https://a0.muscache.com/im/pictures/lombard/MtTemplate-296564-poster/original/fefb876a-360e-436f-b25c-902047644265.jpg?im_w=720",
+                imageSrc: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=720&auto=format&fit=crop",
                 minBooking: null,
             }
         ]

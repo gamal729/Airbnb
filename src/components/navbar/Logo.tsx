@@ -1,5 +1,4 @@
-'use client';
-
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 const Logo = () => {
@@ -10,10 +9,14 @@ const Logo = () => {
             onClick={() => router.push('/')}
             className="hidden md:block cursor-pointer"
         >
-            <div className="flex items-center gap-2 text-[#FF385C] font-bold text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style={{ display: 'block', height: '32px', width: '32px', fill: 'currentcolor' }}><path d="M16 1c2.008 0 3.463.963 4.751 3.269l.533 1.025c1.954 3.83 6.114 12.54 7.1 14.836l.145.353c.667 1.591.91 2.472.96 3.396l.01.415.001.228c0 4.062-2.877 6.478-6.357 6.478-2.224 0-4.556-1.258-6.709-3.386l-.257-.26-.177-.179-.177.179c-2.153 2.128-4.485 3.386-6.709 3.386-3.48 0-6.357-2.416-6.357-6.478l.001-.228.01-.415c.05-.924.293-1.805.96-3.396l.145-.353c.986-2.295 5.146-11.006 7.1-14.836l.533-1.025C12.537 1.963 13.992 1 16 1zm0 2c-1.239 0-2.053.539-2.987 2.211l-.523 1.008c-1.926 3.776-6.06 12.43-7.031 14.692l-.345.836c-.427 1.071-.573 1.655-.605 2.24l-.009.33v.206C4.5 27.395 6.411 29 8.143 29c1.854 0 3.97-1.096 6.004-3.112l1.636-1.65.217-.235.217.235 1.636 1.65C19.887 27.904 22.003 29 23.857 29c1.732 0 3.643-1.605 3.643-4.482v-.206l-.009-.33c-.032-.585-.178-1.169-.605-2.24l-.345-.836c-.971-2.262-5.105-10.916-7.031-14.692l-.523-1.008C18.053 3.539 17.239 3 16 3z"></path></svg>
-                <span>airbnb</span>
-            </div>
+            <Image
+                src="/images/logo.png"
+                alt="Blukh"
+                height="100"
+                width="100"
+                className="w-auto h-[50px]"
+                priority
+            />
         </div>
     );
 }

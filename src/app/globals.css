@@ -38,7 +38,7 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 13%;
-    /* Airbnb dark gray #222222 */
+    /* Blukh dark gray #222222 */
 
     --card: 0 0% 100%;
     --card-foreground: 0 0% 13%;
@@ -46,8 +46,8 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 13%;
 
-    --primary: 351 83% 61%;
-    /* Airbnb Red #FF385C */
+    --primary: 173 80% 40%;
+    /* Blukh Teal #0D9488 */
     --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
@@ -65,7 +65,7 @@
     --border: 220 13% 91%;
     /* Light gray border */
     --input: 220 13% 91%;
-    --ring: 351 83% 61%;
+    --ring: 173 80% 40%;
 
     --radius: 0.5rem;
   }
@@ -80,7 +80,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 351 83% 61%;
+    --primary: 173 80% 40%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -97,7 +97,7 @@
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 351 83% 61%;
+    --ring: 173 80% 40%;
   }
 }
 

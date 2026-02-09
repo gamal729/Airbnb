@@ -139,7 +139,7 @@ const ExperienceClient: React.FC<ExperienceClientProps> = ({ experienceId }) => 
                     },
                     {
                         title: "المراجعة الأولية",
-                        description: "لضمان تآزر أفضل لكل حجز، يجب على الضيوف الذين قاموا بالحجز اجتياز المراجعة الأولية التي تجريها Airbnb لحضور تجربة السفر هذه، وإلا فقد يتعرض حجزهم للإلغاء. معرفة المزيد",
+                        description: "لضمان تآزر أفضل لكل حجز، يجب على الضيوف الذين قاموا بالحجز اجتياز المراجعة الأولية التي تجريها Blukh لحضور تجربة السفر هذه، وإلا فقد يتعرض حجزهم للإلغاء. معرفة المزيد",
                         icon: "ShieldCheck"
                     }
                 ]
@@ -260,8 +260,8 @@ const ExperienceClient: React.FC<ExperienceClientProps> = ({ experienceId }) => 
                             <div className="flex items-start gap-4">
                                 <div className="mt-1"><Feather size={24} className="text-neutral-800" /></div>
                                 <div>
-                                    <h3 className="font-bold text-lg">Airbnb Original</h3>
-                                    <p className="text-neutral-600 font-light">تم تصميم تمارين رياضية من قبل Neville حصريًا من أجل Airbnb.</p>
+                                    <h3 className="font-bold text-lg">Blukh Original</h3>
+                                    <p className="text-neutral-600 font-light">تم تصميم تمارين رياضية من قبل Neville حصريًا من أجل Blukh.</p>
                                 </div>
                             </div>
 
@@ -375,7 +375,7 @@ const ExperienceClient: React.FC<ExperienceClientProps> = ({ experienceId }) => 
                     <div className="md:col-span-3 relative">
                         <div className="sticky top-28 bg-white border border-neutral-200 shadow-xl rounded-xl p-6">
                             <h2 className="text-2xl font-bold mb-1">بدءًا من $31 <span className="text-base font-light text-neutral-500">/ للضيف</span></h2>
-                            <p className="text-[#FF385C] font-semibold text-sm mb-6">إلغاء مجاني</p>
+                            <p className="text-primary font-semibold text-sm mb-6">إلغاء مجاني</p>
 
                             <div className="border border-neutral-400 rounded-lg mb-4 cursor-pointer hover:border-black">
                                 <div className="p-3 border-b border-neutral-400">
@@ -383,11 +383,11 @@ const ExperienceClient: React.FC<ExperienceClientProps> = ({ experienceId }) => 
                                     <div className="text-sm font-light text-neutral-500">2:30–5:00 م</div>
                                 </div>
                                 <div className="p-3">
-                                    <div className="text-red-600 text-sm font-bold">يوجد 1 مكان شاغر</div>
+                                    <div className="text-primary text-sm font-bold">يوجد 1 مكان شاغر</div>
                                 </div>
                             </div>
 
-                            <button className="w-full bg-[#E51D53] hover:bg-[#D90B3E] text-white font-bold py-3 rounded-lg text-lg transition mb-4">
+                            <button className="w-full bg-primary hover:brightness-90 text-primary-foreground font-bold py-3 rounded-lg text-lg transition mb-4">
                                 إظهار التواريخ
                             </button>
 
@@ -402,10 +402,10 @@ const ExperienceClient: React.FC<ExperienceClientProps> = ({ experienceId }) => 
                 <div className="flex justify-center py-20 border-t border-neutral-200 mt-12 bg-[#F7F7F7]">
                     <div className="text-center">
                         <div className="font-bold text-2xl mb-2 flex items-center justify-center gap-2">
-                            <span>Airbnb Originals</span>
+                            <span>Blukh Originals</span>
                             <span className="text-[#D4AF37]"><Feather size={24} fill="#D4AF37" /></span>
                         </div>
-                        <h3 className="text-3xl font-bold mb-4">صُممت Airbnb Originals<br /> خصيصًا من أجل Airbnb</h3>
+                        <h3 className="text-3xl font-bold mb-4">صُممت Blukh Originals<br /> خصيصًا من أجل Blukh</h3>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,4 @@
-'use client';
-
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { AiFillStar } from "react-icons/ai";
 import { Heart } from "lucide-react";
@@ -18,8 +17,13 @@ interface ServiceCardProps {
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ data, aspectRatio = "square" }) => {
+    const router = useRouter();
+
     return (
-        <div className="group cursor-pointer flex flex-col gap-2 w-full">
+        <div
+            onClick={() => router.push(`/services/${data.id}`)}
+            className="group cursor-pointer flex flex-col gap-2 w-full"
+        >
             <div
                 className={`
                     w-full relative overflow-hidden rounded-xl

@@ -8,8 +8,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Airbnb Clone',
-  description: 'Airbnb clone built with Next.js',
+  title: 'Blukh',
+  description: 'Blukh - Find your perfect stay',
 };
 
 export default function RootLayout({

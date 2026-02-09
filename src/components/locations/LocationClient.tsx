@@ -8,7 +8,7 @@ import LocationStats from "./LocationStats";
 import LocationAmenities from "./LocationAmenities";
 import LocationAttractions from "./LocationAttractions";
 import LocationWeather from "./LocationWeather";
-import MoreFromAirbnb from "./MoreFromAirbnb";
+import MoreFromBlukh from "./MoreFromBlukh";
 
 interface LocationClientProps {
     city: string;
@@ -146,7 +146,7 @@ const LocationClient: React.FC<LocationClientProps> = ({ city }) => {
                 />
                 <LocationWeather />
                 <LocationStats />
-                <MoreFromAirbnb />
+                <MoreFromBlukh />
             </div>
         </Container>
     );

@@ -75,7 +75,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
                             مفضل لدى الضيوف
                         </div>
                         <div className="text-neutral-500 font-light">
-                            أحد أكثر البيوت التي أحبها الضيوف على Airbnb
+                            أحد أكثر البيوت التي أحبها الضيوف على Blukh
                         </div>
                     </div>
                 </div>

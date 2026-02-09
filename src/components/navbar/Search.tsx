@@ -92,7 +92,7 @@ const Search: React.FC<SearchProps> = ({ compact }) => {
                         <div
                             className="
                 p-2 
-                bg-[#FF385C] 
+                bg-primary 
                 rounded-full 
                 text-white
               "
@@ -223,10 +223,10 @@ const Search: React.FC<SearchProps> = ({ compact }) => {
                     <div
                         className="
               p-3
-              bg-[#FF385C] 
+              bg-primary 
               rounded-full 
               text-white
-              hover:bg-[#d9324e]
+              hover:brightness-90
               transition
             "
                     >

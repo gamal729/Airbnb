@@ -25,7 +25,7 @@ const LocationHero: React.FC<LocationHeroProps> = ({ city }) => {
                     إيجارات البيوت الصيفية في {decodedCity}
                 </h1>
                 <p className="text-sm text-neutral-500 mb-6">
-                    إيجاد وحجز أماكن إقامة فريدة على Airbnb
+                    إيجاد وحجز أماكن إقامة فريدة على Blukh
                 </p>
 
                 <div className="flex flex-col gap-3">
@@ -58,7 +58,7 @@ const LocationHero: React.FC<LocationHeroProps> = ({ city }) => {
                     </div>
                 </div>
 
-                <button className="w-full bg-[#E51D55] text-white font-bold py-3 rounded-lg mt-6 hover:bg-[#d90b46] transition">
+                <button className="w-full bg-primary text-primary-foreground font-bold py-3 rounded-lg mt-6 hover:brightness-90 transition">
                     بحث
                 </button>
             </div>

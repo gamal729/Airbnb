@@ -34,7 +34,7 @@ const LocationStats = () => {
                     <div key={index} className="flex flex-col gap-4 border border-neutral-200 rounded-xl p-6 hover:shadow-md transition bg-white h-full relative overflow-hidden">
                         <div className="font-bold text-lg mb-2 leading-tight">{item.label}</div>
                         <div className="text-neutral-500 text-sm flex-grow">{item.value}</div>
-                        <div className="absolute top-6 left-6 text-[#E51D55]">
+                        <div className="absolute top-6 left-6 text-primary">
                             <item.icon size={24} />
                         </div>
                     </div>

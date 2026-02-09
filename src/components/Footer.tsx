@@ -214,7 +214,7 @@ const Footer = () => {
                         </div>
 
                         <div className="mt-12 flex items-center gap-2 text-sm text-neutral-500">
-                            <span className="font-bold text-neutral-800">Airbnb</span>
+                            <span className="font-bold text-neutral-800">Blukh</span>
                             <span>›</span>
                             <span className="hover:underline cursor-pointer text-neutral-800">الولايات المتحدة</span>
                             <span>›</span>
@@ -234,7 +234,7 @@ const Footer = () => {
                             <a href="#" className="hover:text-neutral-800 transition"><FaInstagram size={18} /></a>
                         </div>
                         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 md:order-1 text-center md:text-right text-neutral-500">
-                            <span>© 2026 Airbnb, Inc.</span>
+                            <span>© 2026 Blukh, Inc.</span>
                             <div className="hidden md:block">·</div>
                             <a href="#" className="hover:underline">الخصوصية</a>
                             <div className="hidden md:block">·</div>
@@ -293,7 +293,7 @@ const Footer = () => {
                         <div className="flex flex-col gap-3 text-neutral-600">
                             <a href="#" className="hover:underline">مركز المساعدة</a>
                             <a href="#" className="hover:underline">الحصول على مساعدة بشأن مشكلة تتعلق بالسلامة</a>
-                            <a href="#" className="hover:underline">AirCover</a>
+                            <a href="#" className="hover:underline">BlukhCover</a>
                             <a href="#" className="hover:underline">مناهضة التمييز</a>
                             <a href="#" className="hover:underline">دعم ذوي الاحتياجات</a>
                             <a href="#" className="hover:underline">خيارات الإلغاء</a>
@@ -305,10 +305,10 @@ const Footer = () => {
                     <div className="flex flex-col gap-4">
                         <h3 className="font-semibold text-neutral-800">الاستضافة</h3>
                         <div className="flex flex-col gap-3 text-neutral-600">
-                            <a href="#" className="hover:underline">اعرض بيتك على Airbnb</a>
-                            <a href="#" className="hover:underline">اعرض تجربة السفر التي تقدمها على Airbnb</a>
-                            <a href="#" className="hover:underline">اعرض الخدمة التي تقدمها على Airbnb</a>
-                            <a href="#" className="hover:underline">حماية AirCover للمضيفين</a>
+                            <a href="#" className="hover:underline">اعرض بيتك على Blukh</a>
+                            <a href="#" className="hover:underline">اعرض تجربة السفر التي تقدمها على Blukh</a>
+                            <a href="#" className="hover:underline">اعرض الخدمة التي تقدمها على Blukh</a>
+                            <a href="#" className="hover:underline">حماية BlukhCover للمضيفين</a>
                             <a href="#" className="hover:underline">موارد الاستضافة</a>
                             <a href="#" className="hover:underline">منتدى المجتمع</a>
                             <a href="#" className="hover:underline">الاستضافة بمسؤولية</a>
@@ -320,14 +320,14 @@ const Footer = () => {
 
                     {/* Column 3: Airbnb */}
                     <div className="flex flex-col gap-4">
-                        <h3 className="font-semibold text-neutral-800">Airbnb</h3>
+                        <h3 className="font-semibold text-neutral-800">Blukh</h3>
                         <div className="flex flex-col gap-3 text-neutral-600">
                             <a href="#" className="hover:underline">غرفة الأخبار</a>
                             <a href="#" className="hover:underline">الميزات الجديدة</a>
                             <a href="#" className="hover:underline">الوظائف</a>
                             <a href="#" className="hover:underline">المستثمرون</a>
                             <a href="#" className="hover:underline">بطاقات الهدايا</a>
-                            <a href="#" className="hover:underline">Airbnb.org للطوارئ</a>
+                            <a href="#" className="hover:underline">Blukh.org للطوارئ</a>
                         </div>
                     </div>
                 </div>
@@ -350,7 +350,7 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 md:order-1 text-center md:text-right text-neutral-500">
-                        <span>© 2026 Airbnb, Inc.</span>
+                        <span>© 2026 Blukh, Inc.</span>
                         <div className="hidden md:block">·</div>
                         <a href="#" className="hover:underline">الخصوصية</a>
                         <div className="hidden md:block">·</div>

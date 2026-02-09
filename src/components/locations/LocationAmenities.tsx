@@ -17,7 +17,7 @@ const LocationAmenities = () => {
             <div className="flex flex-wrap justify-center gap-4">
                 {amenities.map((item, index) => (
                     <div key={index} className="flex flex-col items-center justify-center gap-2 border border-neutral-200 rounded-xl p-6 w-[150px] h-[120px] shadow-sm hover:shadow-md transition">
-                        <item.icon size={32} className="text-[#E51D55]" strokeWidth={1.5} />
+                        <item.icon size={32} className="text-primary" strokeWidth={1.5} />
                         <span className="font-semibold text-sm">{item.label}</span>
                     </div>
                 ))}

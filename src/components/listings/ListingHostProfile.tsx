@@ -12,7 +12,7 @@ const ListingHostProfile = () => {
                 <div className="md:w-1/3 flex flex-col items-center justify-center bg-white rounded-3xl p-8 shadow-lg text-center gap-4">
                     <div className="relative">
                         <Avatar className="w-32 h-32" />
-                        <div className="absolute bottom-0 right-0 bg-[#E51D55] text-white p-2 rounded-full border-4 border-white">
+                        <div className="absolute bottom-0 right-0 bg-primary text-primary-foreground p-2 rounded-full border-4 border-white">
                             <Award size={20} />
                         </div>
                     </div>

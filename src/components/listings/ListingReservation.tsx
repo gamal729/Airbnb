@@ -66,7 +66,7 @@ const ListingReservation: React.FC<ListingReservationProps> = ({
                 </div>
             </div>
 
-            <button className='w-full bg-[#E51D55] text-white font-bold text-lg py-3 rounded-lg mt-4 hover:bg-[#d90b46] transition'>
+            <button className='w-full bg-primary text-primary-foreground font-bold text-lg py-3 rounded-lg mt-4 hover:brightness-90 transition'>
                 حجز
             </button>
 

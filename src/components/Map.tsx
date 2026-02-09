@@ -15,7 +15,7 @@ const Map: React.FC<MapProps> = ({ center }) => {
                 backgroundPosition: 'center'
             }}></div>
             <div className="z-10 bg-white/80 p-4 rounded-xl shadow-lg flex flex-col items-center">
-                <MapPin size={32} className="text-[#E51D55] mb-2" />
+                <MapPin size={32} className="text-primary mb-2" />
                 <span className="font-semibold text-neutral-800">Map view is currently unavailable</span>
                 <span className="text-xs text-neutral-500">Google Maps API key required</span>
             </div>
