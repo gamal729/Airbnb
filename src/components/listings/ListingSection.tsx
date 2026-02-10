@@ -63,7 +63,7 @@ const ListingSection: React.FC<ListingSectionProps> = ({
                 style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
                 {listings.map((listing) => (
-                    <div key={listing.id} className="min-w-[280px] sm:min-w-[300px] md:min-w-[320px] snap-start">
+                    <div key={listing.id} className="min-w-[250px] sm:min-w-[280px] md:min-w-[320px] snap-start">
                         <ListingCard
                             data={listing}
                         />

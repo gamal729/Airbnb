@@ -59,7 +59,7 @@ const LocationListings: React.FC<LocationListingsProps> = ({
                 className="flex gap-6 overflow-x-auto no-scrollbar pb-4 -mx-4 px-4 scroll-smooth"
             >
                 {listings.map((listing) => (
-                    <div key={listing.id} className="min-w-[300px]">
+                    <div key={listing.id} className="min-w-[250px] sm:min-w-[280px] md:min-w-[300px]">
                         <ListingCard
                             currentUser={currentUser}
                             data={listing}

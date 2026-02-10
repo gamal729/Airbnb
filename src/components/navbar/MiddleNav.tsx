@@ -25,21 +25,24 @@ const MiddleNav = () => {
     };
 
     return (
-        <div className="hidden md:flex flex-row items-center justify-center gap-8">
+        <div className="flex flex-row items-center justify-center gap-2 md:gap-8 overflow-x-auto no-scrollbar">
             {tabs.map((tab) => (
                 <div
                     key={tab.label}
                     onClick={() => handleTabClick(tab.label)}
                     className={`
             cursor-pointer 
-            text-sm 
+            text-xs 
+            md:text-sm 
             font-medium 
             transition 
             hover:text-neutral-800 
             hover:bg-neutral-100 
-            px-4 
+            px-2 
+            md:px-4 
             py-2 
             rounded-full
+            whitespace-nowrap
             ${activeTab === tab.label || (activeTab === "homes" && tab.label === "البيوت") || (activeTab === "experiences" && tab.label === "تجارب السفر") ? "text-neutral-900 font-bold" : "text-neutral-500"}
           `}
                 >
